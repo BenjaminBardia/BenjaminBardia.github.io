@@ -1,13 +1,84 @@
-header{
-  background-color: crimson;
+body{
+ 
+}
+
+h2 {
+  text-decoration:underline;
+  
+}
+li {
+      color: rgb(45,200,200);
+      font-size: 24px;
+      background-color:cyan;
+    }
+  
+/*
+Remember to add box models
+*/
+
+.li {
+  
+  font-size: 13px;
+  color:green;
+  font-weight:bold;
+}
+
+
+#p {
+  color:#FFD700;
   
 }
 
-#his{
-  
-  font-family:Impact, Charcoal, sans-serif;
+.table{
+  border: 2px dotted rgb(210,6,200);
+  float:right;
 }
 
-footer{
-  background-color:yellow ;
+.box {
+  width: 150px;
+  border: 15px solid black;
+  padding: 50px;
+  margin: 20px;
 }
+
+#yellow {
+  background-color:yellow;
+}
+
+.iblock{
+  color: black;
+  background-color :#800080;
+  display:inline-block;
+  border: 4px solid blue;
+  width: 200px;
+  height: 100px;
+}
+
+.special{
+  visibility:hidden;
+}
+
+p:hover, h1:hover, a:hover {
+  background-color: yellow;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 15s;
+}
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: blue;}
+}
+
+
+
+/*
+1.Importance
+2.Specificty
+3.Order
+*/
