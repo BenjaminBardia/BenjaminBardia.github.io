@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    /* this is internal css */
+    p.internal{
+       color:red;
+    }
+     
+    
+    
+    
+    
+  </style>
+  
+  <title>CSS Styles</title>
+</head>
+<body>
+  
+  <p> I want this paragraph to be style with blue font (external) </p>
+   <p class="internal"> I want this paragraph to be style with red font (internal) </p>
+   <p class="internal" style="color: green; font-style: italic;"> I want this paragraph to be style with green font (inline) </p>
+  
+  
+</body>
+</html>
